@@ -1,0 +1,14 @@
+{
+  "BAJAJ-001": {
+    "source": "Bajaj",
+    "category": "coverage",
+    "content": "Hospitalization due to orthopedic surgery is covered after a 30-day waiting period.",
+    "clause_id": "BAJAJ-001"
+  },
+  "ICICI-002": {
+    "source": "ICICI",
+    "category": "exclusions",
+    "content": "Any treatment related to pre-existing diseases is excluded for the first 2 years.",
+    "clause_id": "ICICI-002"
+  }
+}

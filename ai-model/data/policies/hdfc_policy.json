@@ -1,0 +1,87 @@
+{
+  "name": "HDFC Ergo Easy Health",
+  "provider": "HDFC ERGO General Insurance Co. Ltd",
+  "uin": "HDFHLIP23024V072223",
+  "clauses": [
+    {
+      "clause_id": "HDFC-001",
+      "text": "Critical illness coverage includes cancer, CABG, heart attack, stroke, kidney failure with no waiting period",
+      "category": "coverage"
+    },
+    {
+      "clause_id": "HDFC-002",
+      "text": "Cumulative bonus increases sum insured without premium increase for claim-free years",
+      "category": "benefits"
+    },
+    {
+      "clause_id": "HDFC-003",
+      "text": "Day care treatment means less than 24 hours hospitalization due to technological advancement",
+      "category": "definitions"
+    },
+    {
+      "clause_id": "HDFC-004",
+      "text": "Domiciliary care covered when hospital treatment not available or patient unfit to move",
+      "category": "coverage"
+    },
+    {
+      "clause_id": "HDFC-005",
+      "text": "Hospitalization means admission for more than 24 hours unless day care procedure",
+      "category": "definitions"
+    },
+    {
+      "clause_id": "HDFC-006",
+      "text": "Medical expenses must be reasonable, medically necessary, and verified by medical practitioner",
+      "category": "eligibility"
+    },
+    {
+      "clause_id": "HDFC-007",
+      "text": "AYUSH hospitals must meet government standards same as allopathic hospitals",
+      "category": "eligibility"
+    },
+    {
+      "clause_id": "HDFC-008",
+      "text": "Co-payment means insured bears part of medical expenses as per policy terms",
+      "category": "terms"
+    },
+    {
+      "clause_id": "HDFC-009",
+      "text": "Deductible amount applies before claim payment is processed by insurance company",
+      "category": "terms"
+    },
+    {
+      "clause_id": "HDFC-010",
+      "text": "Accident means sudden, external, visible, violent event causing bodily injury",
+      "category": "definitions"
+    },
+    {
+      "clause_id": "HDFC-011",
+      "text": "Waiting period of 90 days applies for knee surgery and joint replacement procedures",
+      "category": "terms"
+    },
+    {
+      "clause_id": "HDFC-012",
+      "text": "Eye surgery including cataract covered after 30 days waiting period",
+      "category": "coverage"
+    },
+    {
+      "clause_id": "HDFC-013",
+      "text": "Pre-existing diseases covered after 48 months continuous coverage",
+      "category": "terms"
+    },
+    {
+      "clause_id": "HDFC-014",
+      "text": "Maternity benefits available after 36 months waiting period",
+      "category": "coverage"
+    },
+    {
+      "clause_id": "HDFC-015",
+      "text": "Annual health check-up covered up to specified limit without deductible",
+      "category": "benefits"
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2023-12-01",
+    "total_clauses": 15
+  }
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "clause_id": "BAJ-001",
+    "text": "Accident means sudden, external, violent, and visible event causing bodily injury to the insured person",
+    "policy_name": "Bajaj Allianz Global Health Care",
+    "category": "definitions",
+    "provider": "Bajaj Allianz General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "BAJ-002",
+    "text": "Any one illness includes relapse within 45 days of previous treatment for the same condition",
+    "policy_name": "Bajaj Allianz Global Health Care",
+    "category": "definitions",
+    "provider": "Bajaj Allianz General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "BAJ-003",
+    "text": "Day care procedures covered where treatment is less than 24 hours due to technological advancement",
+    "policy_name": "Bajaj Allianz Global Health Care",
+    "category": "coverage",
+    "provider": "Bajaj Allianz General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "BAJ-004",
+    "text": "Pre-hospitalization expenses covered up to 60 days before admission, post-hospitalization up to 90 days after discharge",
+    "policy_name": "Bajaj Allianz Global Health Care",
+    "category": "coverage",
+    "provider": "Bajaj Allianz General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "BAJ-005",
+    "text": "Hospital must have minimum 10-15 beds, qualified nursing staff, and operation theater facilities",
+    "policy_name": "Bajaj Allianz Global Health Care",
+    "category": "eligibility",
+    "provider": "Bajaj Allianz General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "BAJ-006",
+    "text": "AYUSH Hospital and Day Care Centre must be government approved or registered with appropriate authorities",
+    "policy_name": "Bajaj Allianz Global Health Care",
+    "category": "eligibility",
+    "provider": "Bajaj Allianz General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "BAJ-007",
+    "text": "Cashless facility is where insurer directly pays hospital bills without insured paying upfront",
+    "policy_name": "Bajaj Allianz Global Health Care",
+    "category": "benefits",
+    "provider": "Bajaj Allianz General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "BAJ-008",
+    "text": "Co-payment is cost-sharing between insured and insurer, does not reduce sum insured amount",
+    "policy_name": "Bajaj Allianz Global Health Care",
+    "category": "terms",
+    "provider": "Bajaj Allianz General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "BAJ-009",
+    "text": "Congenital anomalies include both internal and external birth defects present at birth",
+    "policy_name": "Bajaj Allianz Global Health Care",
+    "category": "definitions",
+    "provider": "Bajaj Allianz General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "BAJ-010",
+    "text": "OPD treatments not covered as day care procedures under this policy",
+    "policy_name": "Bajaj Allianz Global Health Care",
+    "category": "exclusions",
+    "provider": "Bajaj Allianz General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "BAJ-011",
+    "text": "Illness means acute condition requiring immediate medical attention or chronic condition requiring ongoing treatment",
+    "policy_name": "Bajaj Allianz Global Health Care",
+    "category": "definitions",
+    "provider": "Bajaj Allianz General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "BAJ-012",
+    "text": "Deductible is amount insured must bear before policy coverage applies to medical expenses",
+    "policy_name": "Bajaj Allianz Global Health Care",
+    "category": "terms",
+    "provider": "Bajaj Allianz General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "BAJ-013",
+    "text": "Waiting period of 30 days applies for general illnesses from policy commencement date",
+    "policy_name": "Bajaj Allianz Global Health Care",
+    "category": "terms",
+    "provider": "Bajaj Allianz General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "BAJ-014",
+    "text": "Waiting period of 90 days applies for specific procedures including knee surgery and joint replacements",
+    "policy_name": "Bajaj Allianz Global Health Care",
+    "category": "terms",
+    "provider": "Bajaj Allianz General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "BAJ-015",
+    "text": "Emergency treatment covered from day one without any waiting period restrictions",
+    "policy_name": "Bajaj Allianz Global Health Care",
+    "category": "coverage",
+    "provider": "Bajaj Allianz General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "HDFC-001",
+    "text": "Critical illness coverage includes cancer, CABG, heart attack, stroke, kidney failure with no waiting period",
+    "policy_name": "HDFC Ergo Easy Health",
+    "category": "coverage",
+    "provider": "HDFC ERGO General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "HDFC-002",
+    "text": "Cumulative bonus increases sum insured without premium increase for claim-free years",
+    "policy_name": "HDFC Ergo Easy Health",
+    "category": "benefits",
+    "provider": "HDFC ERGO General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "HDFC-003",
+    "text": "Day care treatment means less than 24 hours hospitalization due to technological advancement",
+    "policy_name": "HDFC Ergo Easy Health",
+    "category": "definitions",
+    "provider": "HDFC ERGO General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "HDFC-004",
+    "text": "Domiciliary care covered when hospital treatment not available or patient unfit to move",
+    "policy_name": "HDFC Ergo Easy Health",
+    "category": "coverage",
+    "provider": "HDFC ERGO General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "HDFC-005",
+    "text": "Hospitalization means admission for more than 24 hours unless day care procedure",
+    "policy_name": "HDFC Ergo Easy Health",
+    "category": "definitions",
+    "provider": "HDFC ERGO General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "HDFC-006",
+    "text": "Medical expenses must be reasonable, medically necessary, and verified by medical practitioner",
+    "policy_name": "HDFC Ergo Easy Health",
+    "category": "eligibility",
+    "provider": "HDFC ERGO General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "HDFC-007",
+    "text": "AYUSH hospitals must meet government standards same as allopathic hospitals",
+    "policy_name": "HDFC Ergo Easy Health",
+    "category": "eligibility",
+    "provider": "HDFC ERGO General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "HDFC-008",
+    "text": "Co-payment means insured bears part of medical expenses as per policy terms",
+    "policy_name": "HDFC Ergo Easy Health",
+    "category": "terms",
+    "provider": "HDFC ERGO General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "HDFC-009",
+    "text": "Deductible amount applies before claim payment is processed by insurance company",
+    "policy_name": "HDFC Ergo Easy Health",
+    "category": "terms",
+    "provider": "HDFC ERGO General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "HDFC-010",
+    "text": "Accident means sudden, external, visible, violent event causing bodily injury",
+    "policy_name": "HDFC Ergo Easy Health",
+    "category": "definitions",
+    "provider": "HDFC ERGO General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "HDFC-011",
+    "text": "Waiting period of 90 days applies for knee surgery and joint replacement procedures",
+    "policy_name": "HDFC Ergo Easy Health",
+    "category": "terms",
+    "provider": "HDFC ERGO General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "HDFC-012",
+    "text": "Eye surgery including cataract covered after 30 days waiting period",
+    "policy_name": "HDFC Ergo Easy Health",
+    "category": "coverage",
+    "provider": "HDFC ERGO General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "HDFC-013",
+    "text": "Pre-existing diseases covered after 48 months continuous coverage",
+    "policy_name": "HDFC Ergo Easy Health",
+    "category": "terms",
+    "provider": "HDFC ERGO General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "HDFC-014",
+    "text": "Maternity benefits available after 36 months waiting period",
+    "policy_name": "HDFC Ergo Easy Health",
+    "category": "coverage",
+    "provider": "HDFC ERGO General Insurance Co. Ltd"
+  },
+  {
+    "clause_id": "HDFC-015",
+    "text": "Annual health check-up covered up to specified limit without deductible",
+    "policy_name": "HDFC Ergo Easy Health",
+    "category": "benefits",
+    "provider": "HDFC ERGO General Insurance Co. Ltd"
+  }
+]

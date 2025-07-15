@@ -1,0 +1,90 @@
+version: '3.8'
+
+services:
+  # MongoDB Database
+  mongodb:
+    image: mongo:6.0
+    container_name: insurance_ai_mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password123
+      MONGO_INITDB_DATABASE: insurance_ai
+    volumes:
+      - mongodb_data:/data/db
+      - ./database/seed_data.js:/docker-entrypoint-initdb.d/seed_data.js:ro
+    networks:
+      - insurance_ai_network
+
+  # Python AI Service
+  ai_service:
+    build:
+      context: ./ai-model
+      dockerfile: Dockerfile
+    container_name: insurance_ai_service
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+      - MONGODB_URI=mongodb://admin:password123@mongodb:27017/insurance_ai?authSource=admin
+    volumes:
+      - ./ai-model:/app
+      - ai_models:/app/models
+    depends_on:
+      - mongodb
+    networks:
+      - insurance_ai_network
+
+  # Node.js Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: insurance_ai_backend
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+      - PORT=3001
+      - MONGODB_URI=mongodb://admin:password123@mongodb:27017/insurance_ai?authSource=admin
+      - AI_SERVICE_URL=http://ai_service:5000
+      - FRONTEND_URL=http://localhost:3000
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    depends_on:
+      - mongodb
+      - ai_service
+    networks:
+      - insurance_ai_network
+
+  # React Frontend (for development)
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: insurance_ai_frontend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:3001/api
+    volumes:
+      - .:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+    networks:
+      - insurance_ai_network
+
+volumes:
+  mongodb_data:
+  ai_models:
+
+networks:
+  insurance_ai_network:
+    driver: bridge
