@@ -3,6 +3,62 @@
 
 A comprehensive end-to-end AI-powered system for processing natural language insurance queries and providing intelligent decisions based on policy documents.
 
+-----
+
+
+
+## 🌟 What is This?
+
+The **AI Insurance Query System** is a real-world application designed to **understand natural language queries** and **extract relevant information from policy documents** (PDFs, DOCs, Emails) to determine the outcome of an insurance request.
+
+It mimics a human-like understanding of insurance policies using LLMs and advanced semantic search to automate decisions and explanations.
+
+---
+
+## 💡 Why Use This Website?
+
+- Manually reviewing insurance documents is time-consuming, error-prone, and inconsistent.
+- This system speeds up **claim evaluation**, **pre-authorization queries**, and **policy compliance checks**.
+- It empowers users and agents to receive **quick, transparent, and explainable responses** to complex insurance-related queries.
+
+---
+
+## 🧩 Tech Stack Used
+
+| Layer           | Technology                             |
+|----------------|----------------------------------------|
+| Frontend       | React.js, TypeScript, Tailwind CSS     |
+| Backend        | Node.js, Express, MongoDB              |
+| AI/NLP Engine  | Python, spaCy, OpenAI Embeddings, FAISS|
+| Data Storage   | MongoDB                                |
+| Deployment     | Docker, Docker Compose                 |
+
+---
+
+## 🚀 Unique Features
+
+- 🤖 **LLM-Powered NLP**: Extracts meaning, not just keywords
+- 🔍 **Semantic Search**: Retrieves contextually relevant clauses
+- 📄 **Unstructured Document Support**: PDF, Word, Email inputs
+- ⚖️ **AI Decision Engine**: Approves/rejects with logical justification
+- 📜 **Clause Referencing**: Points to the exact clause used in decision
+- 📈 **Confidence Scoring**: Understand the certainty of each result
+- 🕵️‍♀️ **Audit Trail**: All responses are traceable with justifications
+
+---
+
+## 🌐 How It Solves Real-World Problems
+
+| Problem                                           | Solution Provided                                      |
+|--------------------------------------------------|--------------------------------------------------------|
+| Manual insurance claim analysis takes days       | Real-time automated decision-making                    |
+| Lack of transparency in approvals/rejections     | Explains every decision with referenced clauses        |
+| Policy documents are hard to understand          | Simplified natural language interface                  |
+| Different documents have different terminologies | Semantic understanding across vocabulary differences   |
+| Scalability for large insurance companies        | Fast, consistent, and reliable at scale                |
+
+---
+
 ## 🏗️ System Architecture
 
 ```
