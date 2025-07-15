@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # AI Insurance Query System
 
 A comprehensive end-to-end AI-powered system for processing natural language insurance queries and providing intelligent decisions based on policy documents.
@@ -305,4 +305,5 @@ For support and questions:
 - [ ] Advanced ML models (GPT integration)
 =======
 # AI-Insurance-Query-System
->>>>>>> db61968aaaf04cc30ee09a1324c4e67a53b9992c
+likhithaj22@gmail.com
+## ❤️😍(❁´◡`❁)❤️💕 Developed By Likhithajagadeesh 
